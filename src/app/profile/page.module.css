@@ -1,0 +1,140 @@
+.profilebg {
+    min-height: calc(100vh - 80px - 42px - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFAFA;
+}
+
+.profilecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 10px 120px;
+    margin: 45px 0;
+}
+
+.profilecontent {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.profileletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8CBD2;
+    color: #A81E24;
+    font-weight: 600;
+    font-size: 80px;
+    border-radius: 50%;
+    padding: 0 8%;
+    margin: 24px 0;
+    width: fit-content;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 32px;
+    color: #111213;
+}
+
+.age {
+    font-weight: 400;
+    font-size: 18px;
+    color: #AAABAC;
+}
+
+.underline {
+    border: 1px solid #E1E2E3;
+    width: 100%;
+    margin: 24px 0;
+}
+
+.header {
+    font-weight: 600;
+    font-size: 18px;
+    color: #111213;
+    margin-bottom: 8px;
+}
+
+.address {
+    font-weight: 400;
+    font-size: 18px;
+    color: #111213;
+    margin-bottom: 40px;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    columns: 200px 2;
+}
+
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.subheader {
+    font-weight: 400;
+    font-size: 16px;
+    color: #AAABAC;
+}
+
+.username {
+    font-weight: 400;
+    font-size: 16px;
+    color: #111213;
+}
+
+.password {
+    font-weight: 400;
+    font-size: 16px;
+    color: #111213;}
+
+.buttongroup {
+    display: flex;
+    column-gap: 4%;
+    justify-content: end;
+    margin: 30px 0;
+}
+
+.buttonout {
+    font-size: 18px;
+    width: 48%;
+    padding: 5px;
+    border-radius: 100px;
+    border: 1px solid #313233;
+    color: #313233;
+    background-color: inherit;
+}
+
+.buttonedit {
+    font-size: 18px;
+    width: 48%;
+    padding: 5px;
+    border-radius: 100px;
+    border: 1px solid #313233;
+    color: #F6F7F8;
+    background-color: #313233;
+}
+
+@media screen and (max-width: 500px) {
+    .profilecontainer {
+        padding: 10px;
+        width: 90%;
+    }
+
+    .profilecontent {
+        width: 90%;
+    }
+}

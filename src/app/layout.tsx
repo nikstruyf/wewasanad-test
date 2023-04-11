@@ -1,4 +1,7 @@
 import './globals.css'
+import TopNav from './topnav'
+import Footer from './footer'
+import 'bootstrap/dist/css/bootstrap.css'
 
 export const metadata = {
   title: 'Create Next App',
@@ -12,7 +15,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className="body">
+          <TopNav />
+          {children}
+          <Footer />
+        </div>
+      </body>
     </html>
   )
 }
